@@ -1,0 +1,100 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(../img/banner.jpg);
+    width: 100%;
+}
+
+.menu {
+    background-color: #1A1A1A;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin: 0;
+}
+
+.menu a {
+    text-align: right;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0 10px;
+    color: #FFF;
+    transition: 0.3s ease all;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
+.menu a:hover {
+    color: #ffcc29;
+}
+
+.menu #registro {
+    color: #9E9152;
+}
+
+.seccion-registro {
+    margin-bottom: 100px;
+}
+
+.titulo-registro h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffff;
+}
+
+.titulo-registro p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #ffff;
+}
+
+.form-registrer {
+    width: 400px;
+    background-color: #1A1A1A;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: #ffff;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-registrer h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
+  
+  .control {
+    width: 375px;
+    background: #1A1A1A;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #FFCC29;
+    font-size: 18px;
+  }
+  
+  .button {
+    width: 100%;
+    background: #FFCC29;
+    border: none;
+    padding: 12px;
+    color: #ffff;
+    margin: 12px 0;
+    font-size: 20px;
+  }
+  
+  .button:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(87, 15, 15, 0.2);
+    cursor: pointer;
+  }
